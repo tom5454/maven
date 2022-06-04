@@ -2,10 +2,11 @@
 	<groupId>com.tom5454.cpm</groupId>
 	<artifactId>CustomPlayerModels-API</artifactId>
 	<versioning>
-		<release>0.4.1</release>
-		<latest>0.4.1</latest>
-		<lastUpdated>20220602160547</lastUpdated>
+		<release>0.4.2</release>
+		<latest>0.4.2</latest>
+		<lastUpdated>20220604211514</lastUpdated>
 		<versions>
+			<version>0.4.2</version>
 			<version>0.4.1</version>
 		</versions>
 	</versioning>
