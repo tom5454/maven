@@ -28,10 +28,10 @@
           "name": "MCPHybridLoom-1.0.0.jar",
           "url": "MCPHybridLoom-1.0.0.jar",
           "size": 10209,
-          "sha512": "ef6936adb5b094e9a9bbf587fa7fcbc3eef7830885fba7f5493acde432b7f2e224a13f6a1533f6fad11237454e162ee31733385337b5f5eab524ac997dccd608",
-          "sha256": "82ad85e74f0f27585573537f2075371d536bbe8c84db814457fcdcab9786568b",
-          "sha1": "49a714e5ff16ba5c4f77e86f7500d038059bf54c",
-          "md5": "1d4bc9f0e302e591c4a6ebe309554697"
+          "sha512": "59e6a560a547be94f07712f38c8cd8d36afa36b1f438b7e54571c4cf80bec525c743d4ca00c16911092db66748a67dc6842d46f77428363b315b6e501a03d7c9",
+          "sha256": "e502cdcf85c543042e636e3422cc60d1b97651165d9b9ee2382012c2d115de80",
+          "sha1": "2a3105e5c394fd0048bf3a67703d499db5f8fa5d",
+          "md5": "99c87e35446418ec2afc1e3bd1d491a8"
         }
       ]
     },
@@ -65,10 +65,10 @@
           "name": "MCPHybridLoom-1.0.0.jar",
           "url": "MCPHybridLoom-1.0.0.jar",
           "size": 10209,
-          "sha512": "ef6936adb5b094e9a9bbf587fa7fcbc3eef7830885fba7f5493acde432b7f2e224a13f6a1533f6fad11237454e162ee31733385337b5f5eab524ac997dccd608",
-          "sha256": "82ad85e74f0f27585573537f2075371d536bbe8c84db814457fcdcab9786568b",
-          "sha1": "49a714e5ff16ba5c4f77e86f7500d038059bf54c",
-          "md5": "1d4bc9f0e302e591c4a6ebe309554697"
+          "sha512": "59e6a560a547be94f07712f38c8cd8d36afa36b1f438b7e54571c4cf80bec525c743d4ca00c16911092db66748a67dc6842d46f77428363b315b6e501a03d7c9",
+          "sha256": "e502cdcf85c543042e636e3422cc60d1b97651165d9b9ee2382012c2d115de80",
+          "sha1": "2a3105e5c394fd0048bf3a67703d499db5f8fa5d",
+          "md5": "99c87e35446418ec2afc1e3bd1d491a8"
         }
       ]
     }
