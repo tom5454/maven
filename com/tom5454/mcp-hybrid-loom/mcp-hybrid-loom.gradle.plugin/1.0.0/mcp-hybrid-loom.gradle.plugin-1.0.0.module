@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.mcp-hybrid-loom",
+    "module": "MCPHybridLoom",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mcp-hybrid-loom.gradle.plugin-1.0.0.jar",
+          "url": "mcp-hybrid-loom.gradle.plugin-1.0.0.jar",
+          "size": 10209,
+          "sha512": "ef6936adb5b094e9a9bbf587fa7fcbc3eef7830885fba7f5493acde432b7f2e224a13f6a1533f6fad11237454e162ee31733385337b5f5eab524ac997dccd608",
+          "sha256": "82ad85e74f0f27585573537f2075371d536bbe8c84db814457fcdcab9786568b",
+          "sha1": "49a714e5ff16ba5c4f77e86f7500d038059bf54c",
+          "md5": "1d4bc9f0e302e591c4a6ebe309554697"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loom",
+          "version": {
+            "requires": "1.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "mapping-io",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mcp-hybrid-loom.gradle.plugin-1.0.0.jar",
+          "url": "mcp-hybrid-loom.gradle.plugin-1.0.0.jar",
+          "size": 10209,
+          "sha512": "ef6936adb5b094e9a9bbf587fa7fcbc3eef7830885fba7f5493acde432b7f2e224a13f6a1533f6fad11237454e162ee31733385337b5f5eab524ac997dccd608",
+          "sha256": "82ad85e74f0f27585573537f2075371d536bbe8c84db814457fcdcab9786568b",
+          "sha1": "49a714e5ff16ba5c4f77e86f7500d038059bf54c",
+          "md5": "1d4bc9f0e302e591c4a6ebe309554697"
+        }
+      ]
+    }
+  ]
+}
