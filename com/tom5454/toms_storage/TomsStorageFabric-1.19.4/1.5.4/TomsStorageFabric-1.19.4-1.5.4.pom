@@ -92,7 +92,7 @@
     <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>
-      <version>0.14.17</version>
+      <version>0.14.19</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -122,7 +122,7 @@
     <dependency>
       <groupId>dev.architectury</groupId>
       <artifactId>architectury-fabric</artifactId>
-      <version>7.0.63</version>
+      <version>8.1.79</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
