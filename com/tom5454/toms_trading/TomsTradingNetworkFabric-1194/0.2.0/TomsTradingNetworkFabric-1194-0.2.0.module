@@ -1,0 +1,191 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_trading",
+    "module": "TomsTradingNetworkFabric-1194",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.19.4-common-api",
+          "version": {
+            "requires": "13.0.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.19.4-fabric-api",
+          "version": {
+            "requires": "13.0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TomsTradingNetworkFabric-1194-0.2.0.jar",
+          "url": "TomsTradingNetworkFabric-1194-0.2.0.jar",
+          "size": 225235,
+          "sha512": "69809d558cd118d729d185e3b03feb2907001abb73713c845e13d3f2e4033284ede108eacb778c25f62712054f23a9dcaa4537138a4e47bc306c47ac307fe2e3",
+          "sha256": "6af03de8938d32020511477eace1a6e2e7b7629e5f78a8c5956fd82895b6cbc0",
+          "sha1": "8abdc858ed58f7a48cb763745f8414ee20d333d8",
+          "md5": "40fd15740e386e2dfecfb1bfe2a1e6f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.19"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.77.0+1.19.4"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "forge-config-api-port-fabric-547434",
+          "version": {
+            "requires": "4451343"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "6.1.0-rc.4"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "8.1.79"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi",
+          "version": {
+            "requires": "0.7.1+1.19.4"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "4438356"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
+          "version": {
+            "requires": "11.0.597"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "dev.architectury",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.19.4-fabric",
+          "version": {
+            "requires": "13.0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TomsTradingNetworkFabric-1194-0.2.0.jar",
+          "url": "TomsTradingNetworkFabric-1194-0.2.0.jar",
+          "size": 225235,
+          "sha512": "69809d558cd118d729d185e3b03feb2907001abb73713c845e13d3f2e4033284ede108eacb778c25f62712054f23a9dcaa4537138a4e47bc306c47ac307fe2e3",
+          "sha256": "6af03de8938d32020511477eace1a6e2e7b7629e5f78a8c5956fd82895b6cbc0",
+          "sha1": "8abdc858ed58f7a48cb763745f8414ee20d333d8",
+          "md5": "40fd15740e386e2dfecfb1bfe2a1e6f7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetworkFabric-1194-0.2.0-sources.jar",
+          "url": "TomsTradingNetworkFabric-1194-0.2.0-sources.jar",
+          "size": 164543,
+          "sha512": "a78a4ed3a707d5954f664a7072b4c07201983aa3e0b1c4e206f51f5a221c965ed44b8ad5552a85601c3eacf584b04c7b4cd86cdb5acd586ad3523768f944de9e",
+          "sha256": "54299c22009b77be5a04f2c1ac0a102f71a2c8dc1e3db86ac000bb5bced0d561",
+          "sha1": "c58395540ba3d5090ad5a18d1aaa1d95e894e934",
+          "md5": "aa6e7118e73d91ea433ffd4472eaf5af"
+        }
+      ]
+    }
+  ]
+}
