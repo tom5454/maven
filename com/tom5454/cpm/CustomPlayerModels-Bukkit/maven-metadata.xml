@@ -2,9 +2,9 @@
 	<groupId>com.tom5454.cpm</groupId>
 	<artifactId>CustomPlayerModels-Bukkit</artifactId>
 	<versioning>
-		<release>0.6.7a</release>
-		<latest>0.6.7a</latest>
-		<lastUpdated>20230408162054</lastUpdated>
+		<release>0.6.8a</release>
+		<latest>0.6.8a</latest>
+		<lastUpdated>20230609182912</lastUpdated>
 		<versions>
 			<version>0.4.8a</version>
 			<version>0.5.0a</version>
@@ -17,6 +17,7 @@
 			<version>0.6.5a</version>
 			<version>0.6.6a</version>
 			<version>0.6.7a</version>
+			<version>0.6.8a</version>
 		</versions>
 	</versioning>
 </metadata>
