@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_trading",
+    "module": "TomsTradingNetwork-1202",
+    "version": "0.2.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-1202-0.2.5.jar",
+          "url": "TomsTradingNetwork-1202-0.2.5.jar",
+          "size": 200627,
+          "sha512": "9ac1b1ca3c0e3f0428935b21506115714d951ad2414d234b9ab129491e93a27f8f42be48b5d4263ca274df23329cb2b3d77f42da7d24cbdbf54874cb408bcb47",
+          "sha256": "ac19df31e4eca8e9ea51ccf56ff4963d157949537454c6645054247048e88269",
+          "sha1": "a91cdc261f90d14b5fc47231450602f8a6c88fba",
+          "md5": "edc004760a1d457a1afdacf0dec03d06"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-1202-0.2.5.jar",
+          "url": "TomsTradingNetwork-1202-0.2.5.jar",
+          "size": 200627,
+          "sha512": "9ac1b1ca3c0e3f0428935b21506115714d951ad2414d234b9ab129491e93a27f8f42be48b5d4263ca274df23329cb2b3d77f42da7d24cbdbf54874cb408bcb47",
+          "sha256": "ac19df31e4eca8e9ea51ccf56ff4963d157949537454c6645054247048e88269",
+          "sha1": "a91cdc261f90d14b5fc47231450602f8a6c88fba",
+          "md5": "edc004760a1d457a1afdacf0dec03d06"
+        }
+      ]
+    }
+  ]
+}
