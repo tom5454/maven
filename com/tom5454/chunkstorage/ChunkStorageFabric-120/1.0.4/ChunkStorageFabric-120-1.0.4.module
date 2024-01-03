@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.chunkstorage",
+    "module": "ChunkStorageFabric-120",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ChunkStorageFabric-120-1.0.4.jar",
+          "url": "ChunkStorageFabric-120-1.0.4.jar",
+          "size": 31665,
+          "sha512": "3779aec753c49beb22bfcc5d27524ddec8d3ed36cff748cca0ce513094244afec298086bf01e2b82bae38464bf6a9bca81898b978e862513471b3d0dc08210db",
+          "sha256": "fbff9d619d0e4af965715a64e5283061e42d321b3b74cc1878b1bbe0d157bdf3",
+          "sha1": "3cd2acf9c35a5f2ef0e8a5a85a3a817be0857e28",
+          "md5": "14788efdded396b64f9053e7ecd8202a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.86.0+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ChunkStorageFabric-120-1.0.4.jar",
+          "url": "ChunkStorageFabric-120-1.0.4.jar",
+          "size": 31665,
+          "sha512": "3779aec753c49beb22bfcc5d27524ddec8d3ed36cff748cca0ce513094244afec298086bf01e2b82bae38464bf6a9bca81898b978e862513471b3d0dc08210db",
+          "sha256": "fbff9d619d0e4af965715a64e5283061e42d321b3b74cc1878b1bbe0d157bdf3",
+          "sha1": "3cd2acf9c35a5f2ef0e8a5a85a3a817be0857e28",
+          "md5": "14788efdded396b64f9053e7ecd8202a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ChunkStorageFabric-120-1.0.4-sources.jar",
+          "url": "ChunkStorageFabric-120-1.0.4-sources.jar",
+          "size": 26638,
+          "sha512": "20218a03452b9f9ba4ec635363951466737dcfcedb950c77c85c8a0422727b61cbc0d412e66fa9d1ac2d5a915d9adb1fffcd6f54135100dfa8fba4bfc4d51f2a",
+          "sha256": "2b409beaa8feca7672783f34de16450da3b6f57c66e28ce6d32e0dbe1fb79cc7",
+          "sha1": "d9ab92ce86e9aa1ca4e2fddbb64891f160154958",
+          "md5": "7bdf0aee77a8bfa8dbb7f876c1857d53"
+        }
+      ]
+    }
+  ]
+}

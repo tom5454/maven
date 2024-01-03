@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_trading",
+    "module": "TomsTradingNetworkFabric-1204",
+    "version": "0.2.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetworkFabric-1204-0.2.8.jar",
+          "url": "TomsTradingNetworkFabric-1204-0.2.8.jar",
+          "size": 218292,
+          "sha512": "1677f3b91782c735667b242a52a992445b352bfbc5336e7973279d5423656150ccb391c01f874cc9e2ea1d5f129245d364cbf5b4a2e36ead5d54f56b728b7d33",
+          "sha256": "7dbfb4e20f17b2ced12e98f9585233cfc0218a8bf26aa1d7a44abe83b72381d7",
+          "sha1": "ac0b7e4ee94e63e935086ef5d45c3f9710bdf435",
+          "md5": "3b29ca49d7b9af8a3881b53bff1f3f80"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.91.1+1.20.4"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "9.0.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "4978962"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
+          "version": {
+            "requires": "14.0.688"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "dev.architectury",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "TomsTradingNetworkFabric-1204-0.2.8.jar",
+          "url": "TomsTradingNetworkFabric-1204-0.2.8.jar",
+          "size": 218292,
+          "sha512": "1677f3b91782c735667b242a52a992445b352bfbc5336e7973279d5423656150ccb391c01f874cc9e2ea1d5f129245d364cbf5b4a2e36ead5d54f56b728b7d33",
+          "sha256": "7dbfb4e20f17b2ced12e98f9585233cfc0218a8bf26aa1d7a44abe83b72381d7",
+          "sha1": "ac0b7e4ee94e63e935086ef5d45c3f9710bdf435",
+          "md5": "3b29ca49d7b9af8a3881b53bff1f3f80"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetworkFabric-1204-0.2.8-sources.jar",
+          "url": "TomsTradingNetworkFabric-1204-0.2.8-sources.jar",
+          "size": 163369,
+          "sha512": "eab8a31bd5ceaf128a4e6a62da7ad2372127b9462cde82261378ff1b617b465b60db27a79f3e43c70c2176153ae878d84d78164c4f7a7076c4346e51ada85ea6",
+          "sha256": "d48a6ac0d59e177efc096b2832b4e1feba98a20c11aa3c4982fc0b5a930350bc",
+          "sha1": "092cf77e05c71b161d6948eb58a5ec40da4f92c4",
+          "md5": "17979b8a9bfcc0f2a30d883cea0d7701"
+        }
+      ]
+    }
+  ]
+}

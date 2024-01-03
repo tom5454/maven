@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_trading",
+    "module": "TomsTradingNetwork-1204",
+    "version": "0.2.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-1204-0.2.7.jar",
+          "url": "TomsTradingNetwork-1204-0.2.7.jar",
+          "size": 216780,
+          "sha512": "c15544eebc36d9807f49f5177c535551ea64b82849a44e93b433dc9e8251f1790c81ba82d601bf4d6f94592adf963a6cad2344757174257d9f2fc87d27d76839",
+          "sha256": "2a28d3f0f40d4a34876fe7a45024fb5317729929d7bb4a53fe7d2b6848859933",
+          "sha1": "ae632df0794c13da99c8c8b4263ef99ce16b0c35",
+          "md5": "1ccde2bc648fd357f2b971d89d473cfb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "4980188"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-neoforge",
+          "version": {
+            "requires": "14.0.688"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-neoforge",
+          "version": {
+            "requires": "13.0.121"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "11.0.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TomsTradingNetwork-1204-0.2.7.jar",
+          "url": "TomsTradingNetwork-1204-0.2.7.jar",
+          "size": 216780,
+          "sha512": "c15544eebc36d9807f49f5177c535551ea64b82849a44e93b433dc9e8251f1790c81ba82d601bf4d6f94592adf963a6cad2344757174257d9f2fc87d27d76839",
+          "sha256": "2a28d3f0f40d4a34876fe7a45024fb5317729929d7bb4a53fe7d2b6848859933",
+          "sha1": "ae632df0794c13da99c8c8b4263ef99ce16b0c35",
+          "md5": "1ccde2bc648fd357f2b971d89d473cfb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-1204-0.2.7-sources.jar",
+          "url": "TomsTradingNetwork-1204-0.2.7-sources.jar",
+          "size": 160182,
+          "sha512": "dc3a2784d60560497eac382485a39d21ad2c692423decd4b130938e982b35d6711faadc843952a2c88af1ce9bf46d06f2c47facd46b0abd281234073274d0269",
+          "sha256": "ba29dfd539c1e0cb263a9323f88ba4301a91a2ef181c07dc72d6204201444527",
+          "sha1": "e103f94b2b3673b4c72d78c94b5434373f66a0b1",
+          "md5": "32dbfe93a1b51b50afbc8b7c2046868f"
+        }
+      ]
+    }
+  ]
+}
