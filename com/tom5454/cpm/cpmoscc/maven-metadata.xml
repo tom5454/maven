@@ -2,9 +2,9 @@
 	<groupId>com.tom5454.cpm</groupId>
 	<artifactId>cpmoscc</artifactId>
 	<versioning>
-		<release>1.5.0</release>
-		<latest>1.5.0</latest>
-		<lastUpdated>20240119021141</lastUpdated>
+		<release>1.5.1</release>
+		<latest>1.5.1</latest>
+		<lastUpdated>20240208152615</lastUpdated>
 		<versions>
 			<version>1.0.0</version>
 			<version>1.1.0</version>
@@ -22,6 +22,7 @@
 			<version>1.4.2</version>
 			<version>1.5.0</version>
 			<version>1.5.0</version>
+			<version>1.5.1</version>
 		</versions>
 	</versioning>
 </metadata>
