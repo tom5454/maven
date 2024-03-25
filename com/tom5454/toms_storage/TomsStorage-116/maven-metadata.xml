@@ -3,12 +3,13 @@
   <groupId>com.tom5454.toms_storage</groupId>
   <artifactId>TomsStorage-116</artifactId>
   <versioning>
-    <latest>1.2.21</latest>
-    <release>1.2.21</release>
+    <latest>1.2.22</latest>
+    <release>1.2.22</release>
     <versions>
       <version>1.2.20</version>
       <version>1.2.21</version>
+      <version>1.2.22</version>
     </versions>
-    <lastUpdated>20240321143509</lastUpdated>
+    <lastUpdated>20240325202157</lastUpdated>
   </versioning>
 </metadata>
