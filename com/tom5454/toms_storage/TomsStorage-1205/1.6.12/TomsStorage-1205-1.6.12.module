@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_storage",
+    "module": "TomsStorage-1205",
+    "version": "1.6.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "TomsStorage-1205-1.6.12.jar",
+          "url": "TomsStorage-1205-1.6.12.jar",
+          "size": 480635,
+          "sha512": "7620f2005515c58450d88b19a8ad1159fda0fd58f20214ac9fef8a9f8d41dad793cf3f2043213c249bfc3d750d48dda42fe2aba3203f6799d4d57fbe8f866644",
+          "sha256": "e98a77cc2881dab0e0f23a54b19b08a36d7f14a426e6b40965ba07d715b063e7",
+          "sha1": "affcdee1227003089f133564de315d47fb276548",
+          "md5": "b6268fd3273ece46e17202e27ee4bbb9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsStorage-1205-1.6.12.jar",
+          "url": "TomsStorage-1205-1.6.12.jar",
+          "size": 480635,
+          "sha512": "7620f2005515c58450d88b19a8ad1159fda0fd58f20214ac9fef8a9f8d41dad793cf3f2043213c249bfc3d750d48dda42fe2aba3203f6799d4d57fbe8f866644",
+          "sha256": "e98a77cc2881dab0e0f23a54b19b08a36d7f14a426e6b40965ba07d715b063e7",
+          "sha1": "affcdee1227003089f133564de315d47fb276548",
+          "md5": "b6268fd3273ece46e17202e27ee4bbb9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsStorage-1205-1.6.12-sources.jar",
+          "url": "TomsStorage-1205-1.6.12-sources.jar",
+          "size": 290247,
+          "sha512": "d706b2631d3233e72b9f597b84b1795291e205f2d29dd68d0b9c26efc07f991adf014f62fcf4dba839a436396e4d658b71dce9311e86def113974d6c97eaefb8",
+          "sha256": "4a574627dfd1e33344af5ba9fb190c51754079e4053c44391f339e6b04afaa27",
+          "sha1": "c120d669efeeafd86fe40b3477eea8668a0532cf",
+          "md5": "6d2712874c1f7fe91a2b3172a074caf7"
+        }
+      ]
+    }
+  ]
+}
