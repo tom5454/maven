@@ -2,15 +2,16 @@
 	<groupId>com.tom5454.cpm</groupId>
 	<artifactId>cpmsvcc</artifactId>
 	<versioning>
-		<release>1.2.0</release>
-		<latest>1.2.0</latest>
-		<lastUpdated>20240119020726</lastUpdated>
+		<release>1.2.1</release>
+		<latest>1.2.1</latest>
+		<lastUpdated>20240425210954</lastUpdated>
 		<versions>
 			<version>1.0.0</version>
 			<version>1.0.1</version>
 			<version>1.1.0</version>
 			<version>1.2.0</version>
 			<version>1.2.0</version>
+			<version>1.2.1</version>
 		</versions>
 	</versioning>
 </metadata>
