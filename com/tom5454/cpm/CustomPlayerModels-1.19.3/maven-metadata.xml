@@ -2,9 +2,9 @@
 	<groupId>com.tom5454.cpm</groupId>
 	<artifactId>CustomPlayerModels-1.19.3</artifactId>
 	<versioning>
-		<release>0.6.16b</release>
-		<latest>0.6.16b</latest>
-		<lastUpdated>20240402213006</lastUpdated>
+		<release>0.6.17a</release>
+		<latest>0.6.17a</latest>
+		<lastUpdated>20240602155637</lastUpdated>
 		<versions>
 			<version>0.6.1a</version>
 			<version>0.6.2a</version>
@@ -25,6 +25,7 @@
 			<version>0.6.15a</version>
 			<version>0.6.16a</version>
 			<version>0.6.16b</version>
+			<version>0.6.17a</version>
 		</versions>
 	</versioning>
 </metadata>
