@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_trading",
+    "module": "TomsTradingNetwork-121",
+    "version": "0.2.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-121-0.2.12.jar",
+          "url": "TomsTradingNetwork-121-0.2.12.jar",
+          "size": 227384,
+          "sha512": "e541771e4984c46d9ce4b6b836d269667ca7d911378a0a651730e61f711ec0c2360c033fa142351f61659bc10beb20f91534aca25346279e738b63fd518cdd35",
+          "sha256": "ffefb2ad51c5d78440c5f60bc2e111ed491c4055eeca2acf07f5899e829f6714",
+          "sha1": "7b2bfd3b923c5299b6520f50ac474104b4f4434a",
+          "md5": "1a7e91403ab22ae9485c3924007db961"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "curse.maven",
+          "module": "the-one-probe-245211",
+          "version": {
+            "requires": "5084077"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5366595"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-neoforge",
+          "version": {
+            "requires": "14.0.688"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-neoforge",
+          "version": {
+            "requires": "13.0.121"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.6-neoforge",
+          "version": {
+            "requires": "18.0.0.59"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi-neoforge",
+          "version": {
+            "requires": "1.1.6+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TomsTradingNetwork-121-0.2.12.jar",
+          "url": "TomsTradingNetwork-121-0.2.12.jar",
+          "size": 227384,
+          "sha512": "e541771e4984c46d9ce4b6b836d269667ca7d911378a0a651730e61f711ec0c2360c033fa142351f61659bc10beb20f91534aca25346279e738b63fd518cdd35",
+          "sha256": "ffefb2ad51c5d78440c5f60bc2e111ed491c4055eeca2acf07f5899e829f6714",
+          "sha1": "7b2bfd3b923c5299b6520f50ac474104b4f4434a",
+          "md5": "1a7e91403ab22ae9485c3924007db961"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-121-0.2.12-sources.jar",
+          "url": "TomsTradingNetwork-121-0.2.12-sources.jar",
+          "size": 165142,
+          "sha512": "3981bbc238b6213d2d061336019069645644ef17a727f4a43360349a7d56e359156e722e5dc54ff55eaf8a23227f45f832a25e4e76fe474f41ecb6187eb768f1",
+          "sha256": "de11a9caa198f17622c7ddb62f90ee7c222cc83ce3624b79c0e39d77df442861",
+          "sha1": "1f338433e92b31865e6fb7d5213e418c6a2f0e64",
+          "md5": "1b1815a231082ce4a288e7bd60af01d3"
+        }
+      ]
+    }
+  ]
+}
