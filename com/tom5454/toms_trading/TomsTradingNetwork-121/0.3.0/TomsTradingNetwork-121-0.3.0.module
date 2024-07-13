@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_trading",
+    "module": "TomsTradingNetwork-121",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-121-0.3.0.jar",
+          "url": "TomsTradingNetwork-121-0.3.0.jar",
+          "size": 268907,
+          "sha512": "8ac635ea0cb518e9f3fd64153de7f8721bb6d451e20d0595581ef19e79d2a4a170155b7c93b0f48387fa9ccf9e32a249917f126bb485cdf08050abb00adcedcc",
+          "sha256": "2d08d9e3a17a3754050c1175b89d84a8b1e5ff7adf888a14fb54dea9f4bd8470",
+          "sha1": "7a0e8a717d067bb669aad65281c90fcb16058c4d",
+          "md5": "91726bc5133323d0d33df36797848787"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-neoforge",
+          "version": {
+            "requires": "16.0.729"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-neoforge",
+          "version": {
+            "requires": "15.0.127"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.4"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "the-one-probe-245211",
+          "version": {
+            "requires": "5084077"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5493270"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21-neoforge",
+          "version": {
+            "requires": "19.5.0.31"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi-neoforge",
+          "version": {
+            "requires": "1.1.10+1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TomsTradingNetwork-121-0.3.0.jar",
+          "url": "TomsTradingNetwork-121-0.3.0.jar",
+          "size": 268907,
+          "sha512": "8ac635ea0cb518e9f3fd64153de7f8721bb6d451e20d0595581ef19e79d2a4a170155b7c93b0f48387fa9ccf9e32a249917f126bb485cdf08050abb00adcedcc",
+          "sha256": "2d08d9e3a17a3754050c1175b89d84a8b1e5ff7adf888a14fb54dea9f4bd8470",
+          "sha1": "7a0e8a717d067bb669aad65281c90fcb16058c4d",
+          "md5": "91726bc5133323d0d33df36797848787"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-121-0.3.0-sources.jar",
+          "url": "TomsTradingNetwork-121-0.3.0-sources.jar",
+          "size": 198629,
+          "sha512": "bb8bcea2675c6e106500c7fd39392fd159cd931012caa1525649ad2eea40f63f6865e278d5e3f33d2005486264db1561d94962eecaf13d6d8d496fb7539d2121",
+          "sha256": "3d56121598eedca2b1cf238ebffd25bf692ab240687e227d7b68657effee6bd7",
+          "sha1": "2db53754c044df2b9e1b69f80469522a1f407995",
+          "md5": "3e464f040d6e2db2be79788aaf43b7f8"
+        }
+      ]
+    }
+  ]
+}
