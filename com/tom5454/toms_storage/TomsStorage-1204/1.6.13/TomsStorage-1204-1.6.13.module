@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_storage",
+    "module": "TomsStorage-1204",
+    "version": "1.6.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "TomsStorage-1204-1.6.13.jar",
+          "url": "TomsStorage-1204-1.6.13.jar",
+          "size": 509727,
+          "sha512": "5f0c1ae13b898ca7f93a081f363342f91d63366bef4df9cf809e3e97395d61be15db9236eddc247e9353a454e2e631606998db301dfee28af62ab50b38237192",
+          "sha256": "35d3b2dfd5b08ae37ef8b53de92ed864be04fa66769609f627df3707c9f8968d",
+          "sha1": "373069534daf71ab3aa2eabb1e030cdb656d6354",
+          "md5": "3b3d5846ba08238bc7f75d9a2a09485a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-neoforge",
+          "version": {
+            "requires": "14.0.688"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-neoforge",
+          "version": {
+            "requires": "13.0.121"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.4-neoforge",
+          "version": {
+            "requires": "17.0.0.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TomsStorage-1204-1.6.13.jar",
+          "url": "TomsStorage-1204-1.6.13.jar",
+          "size": 509727,
+          "sha512": "5f0c1ae13b898ca7f93a081f363342f91d63366bef4df9cf809e3e97395d61be15db9236eddc247e9353a454e2e631606998db301dfee28af62ab50b38237192",
+          "sha256": "35d3b2dfd5b08ae37ef8b53de92ed864be04fa66769609f627df3707c9f8968d",
+          "sha1": "373069534daf71ab3aa2eabb1e030cdb656d6354",
+          "md5": "3b3d5846ba08238bc7f75d9a2a09485a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsStorage-1204-1.6.13-sources.jar",
+          "url": "TomsStorage-1204-1.6.13-sources.jar",
+          "size": 300778,
+          "sha512": "ec7c5a2a3edb02b05801fa676c5ee1bf0f11fe3d17ca3ac4f7e20e23af53f4d26e8a15e03edf8a8ae700a679b3cc8e0e4ccb4f916a7fc66c7a70872b6c680d90",
+          "sha256": "bf3f86be3cc215737cdcebc5510b5f5a214d16cf7cfa57a7176e831711bd5e30",
+          "sha1": "4ff44f6527655b16d1be1e8795fdc7c77320e36d",
+          "md5": "a286c725595dc650463689dc763f01de"
+        }
+      ]
+    }
+  ]
+}
