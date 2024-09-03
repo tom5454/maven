@@ -2,15 +2,16 @@
 	<groupId>com.tom5454.cpm</groupId>
 	<artifactId>cpmoscretro</artifactId>
 	<versioning>
-		<release>1.4.3</release>
-		<latest>1.4.3</latest>
-		<lastUpdated>20240208152335</lastUpdated>
+		<release>1.6.0</release>
+		<latest>1.6.0</latest>
+		<lastUpdated>20240903173400</lastUpdated>
 		<versions>
 			<version>1.3.0</version>
 			<version>1.4.0</version>
 			<version>1.4.1</version>
 			<version>1.4.2</version>
 			<version>1.4.3</version>
+			<version>1.6.0</version>
 		</versions>
 	</versioning>
 </metadata>
