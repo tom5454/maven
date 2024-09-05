@@ -1,0 +1,465 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.createoreexcavation",
+    "module": "CreateOreExcavationFabric-1.20",
+    "version": "1.5.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "11.1.106"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "accessors",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "base",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "extensions",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "networking",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "obj_loader",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tags",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "transfer",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "models",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tool_actions",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "client_events",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "brewing",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "local",
+          "module": "journeymap-api",
+          "version": {
+            "requires": "1.20-1.9-fabric-S"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-common-api",
+          "version": {
+            "requires": "15.2.0.22"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.2.0.22"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "CreateOreExcavationFabric-1.20-1.5.3.jar",
+          "url": "CreateOreExcavationFabric-1.20-1.5.3.jar",
+          "size": 500352,
+          "sha512": "dd8a7564fdc947cbceee4fadec593745ce9a7da442a9bb14f87c30d6b776b0aca970c6e677db9cc0e582646b3ff11657fbd1a651bbe94f8682c20669e1935d6a",
+          "sha256": "b5420c20fa3668a0b745b726e0de29f6467732cdd8ee6a8a3daad2614c35f60c",
+          "sha1": "aefb4f7e29b1308a5d10a287b6ee3c2d2c9c8c20",
+          "md5": "20f985b08cbdd0f1ae895781e5421888"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "11.1.106"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "accessors",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "base",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "extensions",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "networking",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "obj_loader",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tags",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "transfer",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "models",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tool_actions",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "client_events",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "brewing",
+          "version": {
+            "requires": "2.3.2+1.20.1"
+          }
+        },
+        {
+          "group": "local",
+          "module": "journeymap-api",
+          "version": {
+            "requires": "1.20-1.9-fabric-S"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.0+1.20.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "forge-config-api-port-fabric-547434",
+          "version": {
+            "requires": "4583000"
+          }
+        },
+        {
+          "group": "com.tom5454.chunkstorage",
+          "module": "ChunkStorageFabric-120",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-loader",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.tterrag.registrate_fabric",
+          "module": "Registrate",
+          "version": {
+            "requires": "1.3.62-MC1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            },
+            {
+              "group": "io.github.fabricators_of_create",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.2.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.1.12"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric-1.20.1",
+          "version": {
+            "requires": "0.5.1-f-build.1417+mc1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.jozufozu.flywheel",
+          "module": "flywheel-fabric-1.20.1",
+          "version": {
+            "requires": "0.6.10-2"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "dev.latvian.mods",
+          "module": "kubejs-fabric",
+          "version": {
+            "requires": "2001.6.3-build.45"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "journeymap-32274",
+          "version": {
+            "requires": "4841232"
+          }
+        },
+        {
+          "group": "cc.tweaked",
+          "module": "cc-tweaked-1.20.1-fabric",
+          "version": {
+            "requires": "1.108.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CreateOreExcavationFabric-1.20-1.5.3.jar",
+          "url": "CreateOreExcavationFabric-1.20-1.5.3.jar",
+          "size": 500352,
+          "sha512": "dd8a7564fdc947cbceee4fadec593745ce9a7da442a9bb14f87c30d6b776b0aca970c6e677db9cc0e582646b3ff11657fbd1a651bbe94f8682c20669e1935d6a",
+          "sha256": "b5420c20fa3668a0b745b726e0de29f6467732cdd8ee6a8a3daad2614c35f60c",
+          "sha1": "aefb4f7e29b1308a5d10a287b6ee3c2d2c9c8c20",
+          "md5": "20f985b08cbdd0f1ae895781e5421888"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "CreateOreExcavationFabric-1.20-1.5.3-sources.jar",
+          "url": "CreateOreExcavationFabric-1.20-1.5.3-sources.jar",
+          "size": 297497,
+          "sha512": "856e44c3273910ca6cc6984f24041a581b0a139912955e283dc61b32e6933b5a2a6396ac6c8f4baae2133dcd01d64dd5346543a49605ca37dffa4ecbd56f8b30",
+          "sha256": "a7a511131c7da0d6930367bc2a49458be0f350353b64f1c8e716cdc767f9fc3f",
+          "sha1": "adafa99d3e7a9ededf0f1b85d7289e782804475c",
+          "md5": "bd165cb99ff9c4120f70b284a731c4a3"
+        }
+      ]
+    }
+  ]
+}
