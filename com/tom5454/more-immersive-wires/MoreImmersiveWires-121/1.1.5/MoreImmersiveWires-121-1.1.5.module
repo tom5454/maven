@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.more-immersive-wires",
+    "module": "MoreImmersiveWires-121",
+    "version": "1.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "MoreImmersiveWires-121-1.1.5.jar",
+          "url": "MoreImmersiveWires-121-1.1.5.jar",
+          "size": 175840,
+          "sha512": "566d903b5d230131a73fb2584a04e6d66ea0d5af9e6303fa7f0591beb242075acad2dcec9e3b02f9b2c175db0f323371a14598208dd65797eb4a119d288a28c7",
+          "sha256": "7b9c3861f08f7e22a526c1e600c0976d8cc3088ff765c8a60e6036637907c066",
+          "sha1": "2e383596f9cd68844062426e5b1b5796ef047697",
+          "md5": "22b48c0656cb9a1cf5f05d57c002e4f2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "curse.maven",
+          "module": "the-one-probe-245211",
+          "version": {
+            "requires": "5502323"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5529595"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "cc-tweaked-282001",
+          "version": {
+            "requires": "5583001"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "applied-energistics-2-223794",
+          "version": {
+            "requires": "5729094"
+          }
+        },
+        {
+          "group": "malte0811",
+          "module": "BlockModelSplitter",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "malte0811",
+          "module": "DualCodecs",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge",
+          "version": {
+            "requires": "19.19.0.219"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MoreImmersiveWires-121-1.1.5.jar",
+          "url": "MoreImmersiveWires-121-1.1.5.jar",
+          "size": 175840,
+          "sha512": "566d903b5d230131a73fb2584a04e6d66ea0d5af9e6303fa7f0591beb242075acad2dcec9e3b02f9b2c175db0f323371a14598208dd65797eb4a119d288a28c7",
+          "sha256": "7b9c3861f08f7e22a526c1e600c0976d8cc3088ff765c8a60e6036637907c066",
+          "sha1": "2e383596f9cd68844062426e5b1b5796ef047697",
+          "md5": "22b48c0656cb9a1cf5f05d57c002e4f2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MoreImmersiveWires-121-1.1.5-sources.jar",
+          "url": "MoreImmersiveWires-121-1.1.5-sources.jar",
+          "size": 128747,
+          "sha512": "4e8b7536bffc3d254f414f7417fc97eeceef074932a3646e7c4224abf841989d9de61334369ce04679c5e611b2127717ff401ef0741b72d2caa411a5e4c3ae14",
+          "sha256": "ad181d4cdfbfd0b7f3948c6faed0ef5d0b6560190a5295709939abf1773073d5",
+          "sha1": "4db2ae5fedd01c3bad6988add3a6972bbe2c6058",
+          "md5": "00f9c6c245d6d96f0280a7950a75420e"
+        }
+      ]
+    }
+  ]
+}
