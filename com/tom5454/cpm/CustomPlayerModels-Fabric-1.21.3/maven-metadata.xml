@@ -2,12 +2,13 @@
 	<groupId>com.tom5454.cpm</groupId>
 	<artifactId>CustomPlayerModels-Fabric-1.21.3</artifactId>
 	<versioning>
-		<release>0.6.19f</release>
-		<latest>0.6.19f</latest>
-		<lastUpdated>20241107220414</lastUpdated>
+		<release>0.6.19g</release>
+		<latest>0.6.19g</latest>
+		<lastUpdated>20241121204914</lastUpdated>
 		<versions>
 			<version>0.6.19e</version>
 			<version>0.6.19f</version>
+			<version>0.6.19g</version>
 		</versions>
 	</versioning>
 </metadata>
