@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.more-immersive-wires",
+    "module": "MoreImmersiveWires-121",
+    "version": "1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "MoreImmersiveWires-121-1.1.6.jar",
+          "url": "MoreImmersiveWires-121-1.1.6.jar",
+          "size": 196522,
+          "sha512": "40cc1fcc442e5150f8e85986bdda0411ad34ec0d8d5515c9b881d5f711b69cb950d4f0a0e1e61d7233c4f8b82aa645a14672df842dfa58acd06606a793db61c9",
+          "sha256": "7ddbd984bcc60614160aac65b35282275377cb4a71805e0eb203d81688331f11",
+          "sha1": "b3d152b5900b82e012eef0ab55461cccd1e7bea0",
+          "md5": "ddae9c6fe8e8bc235e1f19ad1ca9d55d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "curse.maven",
+          "module": "the-one-probe-245211",
+          "version": {
+            "requires": "5502323"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5529595"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "immersive-engineering-231951",
+          "version": {
+            "requires": "5828000"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "cc-tweaked",
+          "version": {
+            "requires": "uoGrgCjc"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "applied-energistics-2-223794",
+          "version": {
+            "requires": "5729094"
+          }
+        },
+        {
+          "group": "malte0811",
+          "module": "BlockModelSplitter",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "malte0811",
+          "module": "DualCodecs",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "integrated-dynamics-236307",
+          "version": {
+            "requires": "6001774"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "cyclops-core-232758",
+          "version": {
+            "requires": "5979361"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "common-capabilities-247007",
+          "version": {
+            "requires": "5992581"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge",
+          "version": {
+            "requires": "19.19.0.219"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MoreImmersiveWires-121-1.1.6.jar",
+          "url": "MoreImmersiveWires-121-1.1.6.jar",
+          "size": 196522,
+          "sha512": "40cc1fcc442e5150f8e85986bdda0411ad34ec0d8d5515c9b881d5f711b69cb950d4f0a0e1e61d7233c4f8b82aa645a14672df842dfa58acd06606a793db61c9",
+          "sha256": "7ddbd984bcc60614160aac65b35282275377cb4a71805e0eb203d81688331f11",
+          "sha1": "b3d152b5900b82e012eef0ab55461cccd1e7bea0",
+          "md5": "ddae9c6fe8e8bc235e1f19ad1ca9d55d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MoreImmersiveWires-121-1.1.6-sources.jar",
+          "url": "MoreImmersiveWires-121-1.1.6-sources.jar",
+          "size": 140853,
+          "sha512": "357fc14725e3eb29fb4eb4deaa53a9c05b221bf106c2ab559bdc813e531067d5e6bceb1424c1533cec79759471e711c3e2c5bebf6273b4dbf76b54839123e8ab",
+          "sha256": "5611eaa1464c6bff18d731f2d78cb1c597fbc24ca8384f52ba48c62d39169f69",
+          "sha1": "c3d54644493d3512b523ba6d2e9e5be05f00513f",
+          "md5": "acb7550aec975a468aa5839062991d50"
+        }
+      ]
+    }
+  ]
+}
