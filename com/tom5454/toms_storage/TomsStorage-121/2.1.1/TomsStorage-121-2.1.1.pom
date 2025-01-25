@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tom5454.toms_storage</groupId>
+  <artifactId>TomsStorage-121</artifactId>
+  <version>2.1.1</version>
+  <dependencies>
+    <dependency>
+      <groupId>me.shedaniel</groupId>
+      <artifactId>RoughlyEnoughItems-neoforge</artifactId>
+      <version>14.0.688</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.shedaniel.cloth</groupId>
+      <artifactId>cloth-config-neoforge</artifactId>
+      <version>13.0.121</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.architectury</groupId>
+      <artifactId>architectury-neoforge</artifactId>
+      <version>11.0.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>polymorph-388800</artifactId>
+      <version>5480541</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>the-one-probe-245211</artifactId>
+      <version>5502323</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>jade-324717</artifactId>
+      <version>5529595</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>adorned-1036809</artifactId>
+      <version>5546365</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>mezz.jei</groupId>
+      <artifactId>jei-1.21.1-neoforge</artifactId>
+      <version>19.21.0.247</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.emi</groupId>
+      <artifactId>emi-neoforge</artifactId>
+      <version>1.1.19+1.21.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
