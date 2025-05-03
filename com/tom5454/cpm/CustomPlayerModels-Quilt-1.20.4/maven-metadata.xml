@@ -2,9 +2,9 @@
 	<groupId>com.tom5454.cpm</groupId>
 	<artifactId>CustomPlayerModels-Quilt-1.20.4</artifactId>
 	<versioning>
-		<release>0.6.21a</release>
-		<latest>0.6.21a</latest>
-		<lastUpdated>20250213152653</lastUpdated>
+		<release>0.6.22a</release>
+		<latest>0.6.22a</latest>
+		<lastUpdated>20250503161822</lastUpdated>
 		<versions>
 			<version>0.6.16a</version>
 			<version>0.6.16b</version>
@@ -16,6 +16,7 @@
 			<version>0.6.19c</version>
 			<version>0.6.20a</version>
 			<version>0.6.21a</version>
+			<version>0.6.22a</version>
 		</versions>
 	</versioning>
 </metadata>
