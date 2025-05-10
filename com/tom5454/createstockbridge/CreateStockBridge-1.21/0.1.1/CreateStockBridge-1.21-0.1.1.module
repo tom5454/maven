@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.createstockbridge",
+    "module": "CreateStockBridge-1.21",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "CreateStockBridge-1.21-0.1.1.jar",
+          "url": "CreateStockBridge-1.21-0.1.1.jar",
+          "size": 169740,
+          "sha512": "b3fc5dbd2d612edcf94b3c65b2d3fad85243aa0025652b632940131387488b0a06f3a249e0bedbd6b265d5ccf3e403bfca635437270c68affd1b26515503b8a1",
+          "sha256": "e89f6102448bf2c56c8bd66862f982e7707be69951116b8962d3ac81fb79eadc",
+          "sha1": "2237828bc7d0fd61f4ca851a78b4b63ce1d6660a",
+          "md5": "9b0559c42c90ab6a7ab18804966ca280"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "curse.maven",
+          "module": "the-one-probe-245211",
+          "version": {
+            "requires": "5502323"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5529595"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "refined-storage-243076",
+          "version": {
+            "requires": "6358597"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "applied-energistics-2-223794",
+          "version": {
+            "requires": "6225422"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "guideme-1173950",
+          "version": {
+            "requires": "6331224"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-1.21.1",
+          "version": {
+            "requires": "6.0.4-53"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "create-1.21.1",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "slim"
+            }
+          }
+        },
+        {
+          "group": "net.createmod.ponder",
+          "module": "Ponder-NeoForge-1.21.1",
+          "version": {
+            "requires": "1.0.44"
+          }
+        },
+        {
+          "group": "com.tterrag.registrate",
+          "module": "Registrate",
+          "version": {
+            "requires": "MC1.21-1.3.0+62"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge",
+          "version": {
+            "requires": "19.21.0.247"
+          }
+        },
+        {
+          "group": "dev.engine-room.flywheel",
+          "module": "flywheel-neoforge-1.21.1",
+          "version": {
+            "requires": "1.0.1-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CreateStockBridge-1.21-0.1.1.jar",
+          "url": "CreateStockBridge-1.21-0.1.1.jar",
+          "size": 169740,
+          "sha512": "b3fc5dbd2d612edcf94b3c65b2d3fad85243aa0025652b632940131387488b0a06f3a249e0bedbd6b265d5ccf3e403bfca635437270c68affd1b26515503b8a1",
+          "sha256": "e89f6102448bf2c56c8bd66862f982e7707be69951116b8962d3ac81fb79eadc",
+          "sha1": "2237828bc7d0fd61f4ca851a78b4b63ce1d6660a",
+          "md5": "9b0559c42c90ab6a7ab18804966ca280"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "CreateStockBridge-1.21-0.1.1-sources.jar",
+          "url": "CreateStockBridge-1.21-0.1.1-sources.jar",
+          "size": 123518,
+          "sha512": "3b0463b55b209e4564102f2a607bffabcb99d86e10288a35410226d7db3a72518a5d33409c2839c189fe4f3c12f39663fab8f7570699b4d90471ee24b5cf56eb",
+          "sha256": "841f041078b45060ed0d20fd29f69387b86d25f00dd81cbe091561518e80dc6a",
+          "sha1": "18a12f3af88af0c29b74ad8ba19dde26c1f2e9d6",
+          "md5": "a866815630728cc64346c299b68c6567"
+        }
+      ]
+    }
+  ]
+}
