@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.pngj-gwt",
+    "module": "PNGJ-GWT",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "PNGJ-GWT-2.2.0.jar",
+          "url": "PNGJ-GWT-2.2.0.jar",
+          "size": 308944,
+          "sha512": "0db9c31ca2d89c935caa2d2725fcd9946151e0dc2bedf4d1a31230ea65579b2fd1e265cc73f606160bf10b6e1d7971646f25065ff3720a87367951791b46c3fd",
+          "sha256": "9be911602c03581de1f52fdfa48fcd1a54458ae64806716a04ac042eb359d0b6",
+          "sha1": "4adcde76450ac7397eab4c7bbdffb8121d9b134a",
+          "md5": "8bd262d1167c62dda3f352e12ac6059c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.elemental2",
+          "module": "elemental2-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.elemental2",
+          "module": "elemental2-dom",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.slf4gwt",
+          "module": "slf4gwt",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "com.tom5454.jzlib-gwt",
+          "module": "JZLib",
+          "version": {
+            "requires": "1.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "PNGJ-GWT-2.2.0.jar",
+          "url": "PNGJ-GWT-2.2.0.jar",
+          "size": 308944,
+          "sha512": "0db9c31ca2d89c935caa2d2725fcd9946151e0dc2bedf4d1a31230ea65579b2fd1e265cc73f606160bf10b6e1d7971646f25065ff3720a87367951791b46c3fd",
+          "sha256": "9be911602c03581de1f52fdfa48fcd1a54458ae64806716a04ac042eb359d0b6",
+          "sha1": "4adcde76450ac7397eab4c7bbdffb8121d9b134a",
+          "md5": "8bd262d1167c62dda3f352e12ac6059c"
+        }
+      ]
+    }
+  ]
+}
