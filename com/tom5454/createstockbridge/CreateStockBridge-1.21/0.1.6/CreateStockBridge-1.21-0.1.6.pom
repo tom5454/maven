@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tom5454.createstockbridge</groupId>
+  <artifactId>CreateStockBridge-1.21</artifactId>
+  <version>0.1.6</version>
+  <dependencies>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>the-one-probe-245211</artifactId>
+      <version>5502323</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>jade-324717</artifactId>
+      <version>5529595</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>refined-storage-243076</artifactId>
+      <version>6358597</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>applied-energistics-2-223794</artifactId>
+      <version>6225422</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>guideme-1173950</artifactId>
+      <version>6331224</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>ae2-jei-integration-1074338</artifactId>
+      <version>5748513</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.simibubi.create</groupId>
+      <artifactId>create-1.21.1</artifactId>
+      <version>6.0.6-98</version>
+      <classifier>slim</classifier>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>net.createmod.ponder</groupId>
+      <artifactId>Ponder-NeoForge-1.21.1</artifactId>
+      <version>1.0.56</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tterrag.registrate</groupId>
+      <artifactId>Registrate</artifactId>
+      <version>MC1.21-1.3.0+62</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>mezz.jei</groupId>
+      <artifactId>jei-1.21.1-neoforge</artifactId>
+      <version>19.21.0.247</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.engine-room.flywheel</groupId>
+      <artifactId>flywheel-neoforge-1.21.1</artifactId>
+      <version>1.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
