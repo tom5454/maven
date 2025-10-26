@@ -1,0 +1,260 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.createcontraptionterminals",
+    "module": "CreateContraptionTerminalsFabric-1.20",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "11.1.106"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-common-api",
+          "version": {
+            "requires": "15.2.0.22"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.2.0.22"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "CreateContraptionTerminalsFabric-1.20-1.2.0.jar",
+          "url": "CreateContraptionTerminalsFabric-1.20-1.2.0.jar",
+          "size": 88760,
+          "sha512": "02dbd91278304825a300526e3dadec84988de60d8e221079faf259de0a43ee54a0fbcbebff2703985decb7f741720846e59a148bf92c9f30396772caff187c2a",
+          "sha256": "2676ade72f64af286702e279047462f3f5784924306f013b277ceab5f8d26ecc",
+          "sha1": "8f2f7d73584e63144f5f16068fabf3861b1bbb00",
+          "md5": "784801f3522e851bc0658bfedcb7c874"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.3"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "11.1.106"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "forge-config-api-port-fabric-547434",
+          "version": {
+            "requires": "4583000"
+          }
+        },
+        {
+          "group": "com.tterrag.registrate_fabric",
+          "module": "Registrate",
+          "version": {
+            "requires": "1.3.62-MC1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            },
+            {
+              "group": "io.github.fabricators_of_create",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.2.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric-1.20.1",
+          "version": {
+            "requires": "6.0.7.0+mc1.20.1-build.1716"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc.fabric",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.tom5454.toms_storage",
+          "module": "TomsStorageFabric-1.20",
+          "version": {
+            "requires": "1.7.1"
+          },
+          "excludes": [
+            {
+              "group": "dev.architectury",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc.fabric",
+              "module": "*"
+            },
+            {
+              "group": "me.shedaniel",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric",
+          "version": {
+            "requires": "15.2.0.22"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "CreateContraptionTerminalsFabric-1.20-1.2.0.jar",
+          "url": "CreateContraptionTerminalsFabric-1.20-1.2.0.jar",
+          "size": 88760,
+          "sha512": "02dbd91278304825a300526e3dadec84988de60d8e221079faf259de0a43ee54a0fbcbebff2703985decb7f741720846e59a148bf92c9f30396772caff187c2a",
+          "sha256": "2676ade72f64af286702e279047462f3f5784924306f013b277ceab5f8d26ecc",
+          "sha1": "8f2f7d73584e63144f5f16068fabf3861b1bbb00",
+          "md5": "784801f3522e851bc0658bfedcb7c874"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "CreateContraptionTerminalsFabric-1.20-1.2.0-sources.jar",
+          "url": "CreateContraptionTerminalsFabric-1.20-1.2.0-sources.jar",
+          "size": 79852,
+          "sha512": "a33c4335de17686eb255490760585078ef96b8587bc632882a2535dbd9bac336786d825ff1b27a8c0921e6451457f9cb36240b38502d175b4aae8e44213b150a",
+          "sha256": "c009605c0176cb0abe8474fc57c8c845989ab159568ab9b07932b5b0389f2297",
+          "sha1": "e5e0cc097ee5f7d8c26be0a0366b4f22f38c42d7",
+          "md5": "af380b70e89a3c876ef53f3d3c1b00b0"
+        }
+      ]
+    }
+  ]
+}
