@@ -2,12 +2,13 @@
 	<groupId>com.tom5454.cpm</groupId>
 	<artifactId>CustomPlayerModelsLexForge-1.21.8</artifactId>
 	<versioning>
-		<release>0.6.24a</release>
-		<latest>0.6.24a</latest>
-		<lastUpdated>20250803192638</lastUpdated>
+		<release>0.6.25a</release>
+		<latest>0.6.25a</latest>
+		<lastUpdated>20251106160425</lastUpdated>
 		<versions>
 			<version>0.6.23a</version>
 			<version>0.6.24a</version>
+			<version>0.6.25a</version>
 		</versions>
 	</versioning>
 </metadata>
