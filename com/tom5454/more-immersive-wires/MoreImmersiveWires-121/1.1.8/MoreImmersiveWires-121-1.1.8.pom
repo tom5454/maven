@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tom5454.more-immersive-wires</groupId>
+  <artifactId>MoreImmersiveWires-121</artifactId>
+  <version>1.1.8</version>
+  <dependencies>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>the-one-probe-245211</artifactId>
+      <version>5502323</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>jade-324717</artifactId>
+      <version>5529595</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>immersive-engineering-231951</artifactId>
+      <version>6733669</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>refined-storage-243076</artifactId>
+      <version>7039043</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>maven.modrinth</groupId>
+      <artifactId>cc-tweaked</artifactId>
+      <version>h6qYZ1UT</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>applied-energistics-2-223794</artifactId>
+      <version>6225422</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>guideme-1173950</artifactId>
+      <version>6331224</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>malte0811</groupId>
+      <artifactId>BlockModelSplitter</artifactId>
+      <version>2.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>malte0811</groupId>
+      <artifactId>DualCodecs</artifactId>
+      <version>0.1.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>integrated-dynamics-236307</artifactId>
+      <version>6001774</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>cyclops-core-232758</artifactId>
+      <version>5979361</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>common-capabilities-247007</artifactId>
+      <version>5992581</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>mezz.jei</groupId>
+      <artifactId>jei-1.21.1-neoforge</artifactId>
+      <version>19.21.0.247</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
