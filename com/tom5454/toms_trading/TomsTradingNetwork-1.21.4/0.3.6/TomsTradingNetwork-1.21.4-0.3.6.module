@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_trading",
+    "module": "TomsTradingNetwork-1.21.4",
+    "version": "0.3.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-1.21.4-0.3.6.jar",
+          "url": "TomsTradingNetwork-1.21.4-0.3.6.jar",
+          "size": 270642,
+          "sha512": "97f6f11049d739dac4dd69ebc4a5464c5890bca02ccee61d76f5674b6315b61e761d4d662cbdfccf98095d38e901a04d3624e2e5f2faeca3a2a9e40dffa3d2b5",
+          "sha256": "055acdf4b544166b8eee115869627bcf0457aa05bf119dae52b6781a47883590",
+          "sha1": "6bb2f16d54ef02d0d58ef700e6f00157b23f0deb",
+          "md5": "d58baad7528141aade786224fb01f750"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "curse.maven",
+          "module": "the-one-probe-245211",
+          "version": {
+            "requires": "5084077"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "5493270"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-neoforge",
+          "version": {
+            "requires": "16.0.729"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-neoforge",
+          "version": {
+            "requires": "15.0.127"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.4"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21-neoforge",
+          "version": {
+            "requires": "19.5.0.31"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi-neoforge",
+          "version": {
+            "requires": "1.1.10+1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TomsTradingNetwork-1.21.4-0.3.6.jar",
+          "url": "TomsTradingNetwork-1.21.4-0.3.6.jar",
+          "size": 270642,
+          "sha512": "97f6f11049d739dac4dd69ebc4a5464c5890bca02ccee61d76f5674b6315b61e761d4d662cbdfccf98095d38e901a04d3624e2e5f2faeca3a2a9e40dffa3d2b5",
+          "sha256": "055acdf4b544166b8eee115869627bcf0457aa05bf119dae52b6781a47883590",
+          "sha1": "6bb2f16d54ef02d0d58ef700e6f00157b23f0deb",
+          "md5": "d58baad7528141aade786224fb01f750"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-1.21.4-0.3.6-sources.jar",
+          "url": "TomsTradingNetwork-1.21.4-0.3.6-sources.jar",
+          "size": 198501,
+          "sha512": "cfc99f59a52b1917302c800da405a6b4f647ebb643db33b45a557800313e67b16e8d4d10b73f237b228e4f8802e2dce4b175885d65a6f6e7fca58add32af1973",
+          "sha256": "cfccd27553953b42ffa071fdc1afd019abe49089455d02caef2ff07427a749fa",
+          "sha1": "5e53091102131888caa96e8b65273b0ff8ee4a17",
+          "md5": "d38b2f37258d4b4d76e9afee708f5dda"
+        }
+      ]
+    }
+  ]
+}
