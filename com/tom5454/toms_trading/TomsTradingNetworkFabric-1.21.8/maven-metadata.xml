@@ -3,11 +3,12 @@
   <groupId>com.tom5454.toms_trading</groupId>
   <artifactId>TomsTradingNetworkFabric-1.21.8</artifactId>
   <versioning>
-    <latest>0.3.7</latest>
-    <release>0.3.7</release>
+    <latest>0.3.8</latest>
+    <release>0.3.8</release>
     <versions>
       <version>0.3.7</version>
+      <version>0.3.8</version>
     </versions>
-    <lastUpdated>20250928160708</lastUpdated>
+    <lastUpdated>20251231170506</lastUpdated>
   </versioning>
 </metadata>
