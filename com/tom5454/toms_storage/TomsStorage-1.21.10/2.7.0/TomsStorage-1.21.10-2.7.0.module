@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_storage",
+    "module": "TomsStorage-1.21.10",
+    "version": "2.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "TomsStorage-1.21.10-2.7.0.jar",
+          "url": "TomsStorage-1.21.10-2.7.0.jar",
+          "size": 865252,
+          "sha512": "4d4c030ad628b304ca315d4350f4d356280b9dcbd33a4a6d0e4c7ddf8183ac3d0d25db5c30292f1be06dd854e60e9ed2be7e0f0918af5552609569d0521178db",
+          "sha256": "f049226709e5189548de019190a3dc9656db1ddae82247b03ceec27d04e31e24",
+          "sha1": "636a01bc0fab60ddf766814a36576a56c3d9828c",
+          "md5": "57ab688e6eced8756d087d3fd7535e82"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "7056468"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-neoforge",
+          "version": {
+            "requires": "19.0.806"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-neoforge",
+          "version": {
+            "requires": "18.0.145"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "16.1.4"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "polymorph-388800",
+          "version": {
+            "requires": "5995380"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "the-one-probe-245211",
+          "version": {
+            "requires": "5502323"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.10-neoforge",
+          "version": {
+            "requires": "26.0.0.1"
+          }
+        },
+        {
+          "group": "top.theillusivec4.curios",
+          "module": "curios-neoforge",
+          "version": {
+            "requires": "11.0.1+1.21.5"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi-neoforge",
+          "version": {
+            "requires": "1.1.7+1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TomsStorage-1.21.10-2.7.0.jar",
+          "url": "TomsStorage-1.21.10-2.7.0.jar",
+          "size": 865252,
+          "sha512": "4d4c030ad628b304ca315d4350f4d356280b9dcbd33a4a6d0e4c7ddf8183ac3d0d25db5c30292f1be06dd854e60e9ed2be7e0f0918af5552609569d0521178db",
+          "sha256": "f049226709e5189548de019190a3dc9656db1ddae82247b03ceec27d04e31e24",
+          "sha1": "636a01bc0fab60ddf766814a36576a56c3d9828c",
+          "md5": "57ab688e6eced8756d087d3fd7535e82"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsStorage-1.21.10-2.7.0-sources.jar",
+          "url": "TomsStorage-1.21.10-2.7.0-sources.jar",
+          "size": 550308,
+          "sha512": "aeab3b64c41f28477779f0641b6157613eee55511d9cc177592820695e6bd3b95225ea8706fa88c95258dc56dc3c486133da3556644b269a0bcc12e9a65984d2",
+          "sha256": "f029f17c65bd98b1064bd72ab461c292563b212ab713141dfc65e46756babac3",
+          "sha1": "28d7325a4ac39232febd1fc6267edf43249b2d78",
+          "md5": "2ee6c449670db00c01a4bf3196a7eb4d"
+        }
+      ]
+    }
+  ]
+}
