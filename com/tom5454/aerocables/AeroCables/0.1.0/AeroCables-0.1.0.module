@@ -1,9 +1,9 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.tom.aerocables",
+    "group": "com.tom5454.aerocables",
     "module": "AeroCables",
-    "version": "0.2.0",
+    "version": "0.1.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "AeroCables-0.2.0.jar",
-          "url": "AeroCables-0.2.0.jar",
-          "size": 171170,
-          "sha512": "59109377cb8b763102a9715d0ac22321f83cb9638413b052ec65a515cce77ea0b7028143fa0ada55d12f7942b5878d9e2eab17cb9068ca537a802f1b4c67d8e9",
-          "sha256": "4b557416ce921a3e3004a7efedc4e7dc89236849017baef9759ca3b126ce0e6d",
-          "sha1": "ca5a4eb3c9992f1e664659a1fb5481a4fcc53dff",
-          "md5": "e8b99d9505f83c5f593602b8db34f2f0"
+          "name": "AeroCables-0.1.0.jar",
+          "url": "AeroCables-0.1.0.jar",
+          "size": 143611,
+          "sha512": "0be88999441ec3be1a36a45b9f100a2cc417886b79f46d0173d4609c19f85e22dfb18641efffb58f531a8605f5abc2dc62694619d73b760b04107b1f999f0f05",
+          "sha256": "2a75ccf9c0f5e4363e44779bdc759559c91d2d0d17a494aa81cb8ab471d082f8",
+          "sha1": "3b07ecb6f43ba5291257aea7ed6b9414d5cde9fb",
+          "md5": "bb3fdd866ce7c9f072e0d039549eb4c6"
         }
       ]
     },
@@ -49,7 +49,7 @@
           "group": "com.simibubi.create",
           "module": "create-1.21.1",
           "version": {
-            "requires": "6.0.10-280"
+            "requires": "6.0.9-215"
           },
           "excludes": [
             {
@@ -70,7 +70,7 @@
           "group": "net.createmod.ponder",
           "module": "ponder-neoforge",
           "version": {
-            "requires": "1.0.82+mc1.21.1"
+            "requires": "1.0.81+mc1.21.1"
           }
         },
         {
@@ -111,21 +111,21 @@
           "group": "dev.ryanhcode.sable",
           "module": "sable-neoforge-1.21.1",
           "version": {
-            "requires": "[1.2.1,)"
+            "requires": "[1.0.3,)"
           }
         },
         {
           "group": "dev.eriksonn.aeronautics",
           "module": "aeronautics-neoforge-1.21.1",
           "version": {
-            "requires": "1.2.1"
+            "requires": "1.0.3"
           }
         },
         {
           "group": "dev.simulated_team.simulated",
           "module": "simulated-neoforge-1.21.1",
           "version": {
-            "requires": "1.2.1"
+            "requires": "1.0.3"
           }
         },
         {
@@ -195,19 +195,19 @@
           "group": "dev.ryanhcode.offroad",
           "module": "offroad-neoforge-1.21.1",
           "version": {
-            "requires": "1.2.1"
+            "requires": "1.0.3"
           }
         }
       ],
       "files": [
         {
-          "name": "AeroCables-0.2.0.jar",
-          "url": "AeroCables-0.2.0.jar",
-          "size": 171170,
-          "sha512": "59109377cb8b763102a9715d0ac22321f83cb9638413b052ec65a515cce77ea0b7028143fa0ada55d12f7942b5878d9e2eab17cb9068ca537a802f1b4c67d8e9",
-          "sha256": "4b557416ce921a3e3004a7efedc4e7dc89236849017baef9759ca3b126ce0e6d",
-          "sha1": "ca5a4eb3c9992f1e664659a1fb5481a4fcc53dff",
-          "md5": "e8b99d9505f83c5f593602b8db34f2f0"
+          "name": "AeroCables-0.1.0.jar",
+          "url": "AeroCables-0.1.0.jar",
+          "size": 143611,
+          "sha512": "0be88999441ec3be1a36a45b9f100a2cc417886b79f46d0173d4609c19f85e22dfb18641efffb58f531a8605f5abc2dc62694619d73b760b04107b1f999f0f05",
+          "sha256": "2a75ccf9c0f5e4363e44779bdc759559c91d2d0d17a494aa81cb8ab471d082f8",
+          "sha1": "3b07ecb6f43ba5291257aea7ed6b9414d5cde9fb",
+          "md5": "bb3fdd866ce7c9f072e0d039549eb4c6"
         }
       ]
     }
