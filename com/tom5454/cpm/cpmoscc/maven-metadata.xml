@@ -3,8 +3,8 @@
   <groupId>com.tom5454.cpm</groupId>
   <artifactId>cpmoscc</artifactId>
   <versioning>
-    <latest>1.7.1</latest>
-    <release>1.7.1</release>
+    <latest>1.7.2</latest>
+    <release>1.7.2</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -31,7 +31,8 @@
       <version>1.6.2</version>
       <version>1.7.0</version>
       <version>1.7.1</version>
+      <version>1.7.2</version>
     </versions>
-    <lastUpdated>20260531170128</lastUpdated>
+    <lastUpdated>20260726190154</lastUpdated>
   </versioning>
 </metadata>
