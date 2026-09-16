@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tom5454.toms_trading",
+    "module": "TomsTradingNetwork-26.3",
+    "version": "0.3.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-26.3-0.3.17.jar",
+          "url": "TomsTradingNetwork-26.3-0.3.17.jar",
+          "size": 261477,
+          "sha512": "3ed6fab38880f058a0fa117e7b1b426d655e4cf12aa33edde6af3821e4f382b8c4589160ee54606df23522f3f4a0118fc35d273bd4d86474ec4382c22fd1f3b8",
+          "sha256": "5618958a7cce506adc31877636ff36196b87f9fd61a700523398ff80c74f32a2",
+          "sha1": "024d6079dd176239364a1eef30b7fe44057e99f2",
+          "md5": "28e9ac850344e39fc960e0484c720389"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.neoforged",
+          "module": "neoforge",
+          "version": {
+            "requires": "26.3.0.0-beta"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "jade-324717",
+          "version": {
+            "requires": "8892782"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "the-one-probe-245211",
+          "version": {
+            "requires": "5084077"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-neoforge",
+          "version": {
+            "requires": "16.0.729"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-neoforge",
+          "version": {
+            "requires": "15.0.127"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.4"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.11-neoforge",
+          "version": {
+            "requires": "27.3.0.14"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi-neoforge",
+          "version": {
+            "requires": "1.1.10+1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TomsTradingNetwork-26.3-0.3.17.jar",
+          "url": "TomsTradingNetwork-26.3-0.3.17.jar",
+          "size": 261477,
+          "sha512": "3ed6fab38880f058a0fa117e7b1b426d655e4cf12aa33edde6af3821e4f382b8c4589160ee54606df23522f3f4a0118fc35d273bd4d86474ec4382c22fd1f3b8",
+          "sha256": "5618958a7cce506adc31877636ff36196b87f9fd61a700523398ff80c74f32a2",
+          "sha1": "024d6079dd176239364a1eef30b7fe44057e99f2",
+          "md5": "28e9ac850344e39fc960e0484c720389"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "TomsTradingNetwork-26.3-0.3.17-sources.jar",
+          "url": "TomsTradingNetwork-26.3-0.3.17-sources.jar",
+          "size": 193826,
+          "sha512": "3d20fadf453e7da99f5050be12731cb8e58fe4be7731995bccb0ebbc10a43c55b2d6980de59f805aa013c5eddb29f6e920dd4fa77ef7e97ba86772279af6c192",
+          "sha256": "094a505583e956dd2f1fa328035438674568246441e181cc3ebb50953865fe8a",
+          "sha1": "0108d831a513bbb2f6a4802f9c9e60b026eaa990",
+          "md5": "35624ad25899b0a1ad995e1f441ee444"
+        }
+      ]
+    }
+  ]
+}
